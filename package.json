@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrSeaWave/dumi-demo.git",
+    "branch": "master"
+  },
+  "scripts": {
+    "docs:start": "cross-env APP_ROOT=dumi dumi dev",
+    "docs:build": "cross-env APP_ROOT=dumi dumi build"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dumi": "^1.1.25",
+    "lerna": "^4.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

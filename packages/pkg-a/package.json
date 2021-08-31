@@ -1,0 +1,19 @@
+{
+  "name": "pkg-a",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "MrSeaWave <774866545@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/pkg-a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
